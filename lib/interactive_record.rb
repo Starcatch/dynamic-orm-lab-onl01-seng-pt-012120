@@ -78,5 +78,4 @@ class InteractiveRecord
     DB[:conn].execute(sql, value_name);
   end
 
-  
 end
