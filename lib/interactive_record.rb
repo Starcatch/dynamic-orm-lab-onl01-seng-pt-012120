@@ -23,4 +23,5 @@ class InteractiveRecord
   
   
   
+  
 end
