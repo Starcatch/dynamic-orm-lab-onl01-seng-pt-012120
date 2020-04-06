@@ -21,7 +21,11 @@ class InteractiveRecord
     column_names.compact
   end
   
-  
+  def initialize(objects={})
+    objects.each do |k, v|
+      self.send("#{k}=", v)
+    end
+  end
   
   
 end
